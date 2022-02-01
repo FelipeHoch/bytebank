@@ -8,6 +8,7 @@ import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferen
 import { ExtratoComponent } from './extrato/extrato.component';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt'
+import { AppRoutingModule } from 'src/app-routing.module';
 
 registerLocaleData(localePt, 'pt');
 
@@ -21,6 +22,7 @@ registerLocaleData(localePt, 'pt');
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    AppRoutingModule
   ],
   providers: [
     {
